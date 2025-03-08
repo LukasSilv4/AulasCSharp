@@ -21,7 +21,7 @@
                 //Console.WriteLine(retangulo.getArea());
                 //Console.WriteLine(retangulo.getPerimetro());
 
-               Conta_Corrente conta = new Conta_Corrente(1234567,"Lukas",200);
+               Conta_Corrente conta = new Conta_Corrente(1234567,"Lukas",300);
 
             Console.WriteLine("Digite o valor do depósito");
             double valorDepositado = Convert.ToDouble(Console.ReadLine());
