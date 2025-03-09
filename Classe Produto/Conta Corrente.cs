@@ -24,7 +24,7 @@ namespace Classe_Produto
             Console.WriteLine($"VALOR DEPOSITADO: {valorDeposito}");
             Saldo += valorDeposito;
             Console.WriteLine($"NOVO SALDO: {Saldo}");
-             
+
         }
         public void getSacar(double valorDeSaque)
         { if (Saldo < valorDeSaque)
@@ -40,7 +40,29 @@ namespace Classe_Produto
         {
             return Saldo;
         }
+        public void getLogin()
+            
+        {
+            string titular = "Lucas Silva";
+            Console.WriteLine("Digite o número da conta: ");
+            string numero = Console.ReadLine();
 
+
+            if (numero == "1234567")
+            {
+                Console.WriteLine($"Olá : {titular}  Seja bem Vindo!!");
+            }
+            else
+            {
+                Console.WriteLine (" Número de conta não reconhecido, Digite um número de conta válido: ");
+            }
+           
+             
+
+
+
+
+        }
 
     }
     
