@@ -55,6 +55,8 @@ namespace Classe_Produto
             else
             {
                 Console.WriteLine (" Número de conta não reconhecido, Digite um número de conta válido: ");
+                Console.WriteLine("Digite o número da conta: ");
+                 numero = Console.ReadLine();
             }
            
              
