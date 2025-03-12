@@ -31,15 +31,41 @@ namespace Listas_e_Arrays
              //}
             // fruitLista.ForEach(fruta => Console.WriteLine(fruta));
 
-            Aluno aluno1 = new Aluno("Lucas", 5689545,"Transforme-se", "lucas@globo.com", "11589658745");
-            Aluno aluno2 = new Aluno("Silva", 5685845,"Transforme-se", "Silva@globo.com", "11589658564");
-            Aluno aluno3 = new Aluno("Cavalcante", 5685845,"Transforme-se", "Cavalcante@globo.com", "11222658564");
+           // Aluno aluno1 = new Aluno("Lucas", 5689545,"Transforme-se", "lucas@globo.com", "11589658745");
+           // Aluno aluno2 = new Aluno("Silva", 5685845,"Transforme-se", "Silva@globo.com", "11589658564");
+           // Aluno aluno3 = new Aluno("Cavalcante", 5685845,"Transforme-se", "Cavalcante@globo.com", "11222658564");
 
             List<Aluno> listaAlunos = new List<Aluno>();
+            
 
-            listaAlunos.Add(aluno1);
-            listaAlunos.Add(aluno2);
-            listaAlunos.Add(aluno3);
+            Console.WriteLine("O que deseja fazer: ");
+            Console.WriteLine("1 - Cadastrar Aluno: ");
+            Console.WriteLine("2 - Visualizar lista de Alunos: ");
+            string resposta = Console.ReadLine();
+            if (resposta == 1)
+            {
+                Console.WriteLine("Digite o Nome do Alunon Que deseja cadastrar: ")
+                        Nome = Console.Readline();
+                listaAlunos.Add(Nome);
+                Console.WriteLine("Digite a Matricula do Aluno: ")
+                     Matricula = Console.Readline();
+                listaAlunos.Add(Matricula)
+
+                Console.WriteLine("Digite o Email do Aluno: ")
+                     Email = Console.Readline();
+                listaAlunos.Add(Email)
+                Console.WriteLine("Digite o Telefone do Aluno : ")
+                 Telefone = Console.Readline();
+                listaAlunos.Add(Telefone)
+
+            }
+
+
+
+
+            //listaAlunos.Add(aluno1);
+            //listaAlunos.Add(aluno2);
+            //listaAlunos.Add(aluno3);
 
             foreach (Aluno aluno in listaAlunos)
             {
@@ -50,10 +76,7 @@ namespace Listas_e_Arrays
                 Console.WriteLine();
             }
 
-           Console.WriteLine("O que deseja fazer: ");
-           Console.WriteLine("1 - Cadastrar Aluno: ");
-           Console.WriteLine("2 - Visualizar lista de Alunos: ");
-           string resposta = Console.ReadLine();
+          
             //string[] NomeCadastro = new string[200];
             //string[] AlunoCadastrado = new string[NomeCadastro.Length];
             //List<NomeCadastro> nomeCadastro = new List<NomeCadastro>();
